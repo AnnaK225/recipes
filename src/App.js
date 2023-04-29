@@ -12,7 +12,7 @@ import {Recipe} from "./pages/Recipe";
 function App() {
   return (
    <>
-   <Router basename='/recipes'>
+   <Router basename='/recipes/'>
      <Header/>
      <main className="container content">
 
