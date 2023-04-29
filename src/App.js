@@ -17,7 +17,7 @@ function App() {
      <main className="container content">
 
     <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="category/:name" element={<Category/>}/>
